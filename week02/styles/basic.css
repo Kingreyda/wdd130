@@ -1,0 +1,9 @@
+header img {
+    width: 128px;
+    height: 128px;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
