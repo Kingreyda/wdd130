@@ -6,14 +6,28 @@ img {
     width: 200px;
 }
 
-h1 {
-    color: rgb(9, 9, 11);
-}
-
-h3 {
-    color: rgb(206, 21, 0)
+nav {
+    background-color: rgb(8, 0, 124);
+    padding: 20px;
 }
 
 nav a {
-    color: rgb(8, 0, 124);
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
 }
