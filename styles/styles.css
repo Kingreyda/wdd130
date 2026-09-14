@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 16px Arial, sans-serif;
 }
 
 img {
@@ -18,7 +18,7 @@ nav a {
 }
 
 h1 {
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 
 img {
