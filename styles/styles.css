@@ -24,7 +24,7 @@ nav a {
     padding: 20px;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     box-shadow: 0 0 30px rgb(108, 106, 106);
@@ -32,7 +32,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 main {
@@ -55,15 +55,11 @@ aside img {
     height: auto;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-}
-
 footer {
     margin-top: 1rem;
     padding: 1rem;
     text-align: center;
     color: white;
     background-color: rgb(8, 0, 124);
+    border-top: 1px solid #000;
 }
