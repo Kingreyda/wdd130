@@ -1,5 +1,12 @@
 body {
-    font-family: 16px Arial, sans-serif;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    border: 2px solid rgb(26, 26, 145);
+    background-color: white;
+    color: rgb(2, 2, 126);
+    margin: 1px;
 }
 
 img {
@@ -17,15 +24,11 @@ nav a {
     padding: 20px;
 }
 
-h1 {
-    color: rgb(0, 0, 255);
-}
-
 img {
     width: 150px;
     height: auto;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(108, 106, 106);
+    border: 1px solid rgb(77, 75, 75);
 }
 
 p {
@@ -39,7 +42,7 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: 1rem auto;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     color: rgb(44, 39, 39);
@@ -55,4 +58,12 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+}
+
+footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 0, 124);
 }
