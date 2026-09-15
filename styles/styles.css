@@ -29,6 +29,7 @@ main img {
     height: auto;
     box-shadow: 0 0 30px rgb(108, 106, 106);
     border: 1px solid rgb(77, 75, 75);
+    padding: 3px;
 }
 
 p {
