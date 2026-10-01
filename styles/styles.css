@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -16,39 +22,71 @@ img {
 nav {
     background-color: rgb(8, 0, 124);
     padding: 20px;
+    display: flex;
+    gap: 30px;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    color: #8ecae6;
+}
+
+ul.box {
+    max-width: 500px;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 main img {
-    width: 150px;
-    height: auto;
-    box-shadow: 0 0 30px rgb(108, 106, 106);
-    border: 1px solid rgb(77, 75, 75);
-    padding: 3px;
+    float: right;
+    width: 200px;
+    margin: 0 0 15px 15px;
+    border: 3px solid white;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+main p {
+    line-height: 1.4;
 }
 
 p {
     padding: 0px;
 }
 
-main {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
 aside {
     width: 20rem;
     margin: 1rem auto;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 10px;
-    color: rgb(44, 39, 39);
-    background-color: #eee;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: white;
+    background-color: rgb(0 0 0 / 50%);
+    padding: 5px 10px;
 }
 
 aside img {
@@ -58,7 +96,7 @@ aside img {
 
 footer {
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 20px;
     text-align: center;
     color: white;
     background-color: rgb(8, 0, 124);
