@@ -18,6 +18,22 @@ body {
     color: var(--primary-color);
 }
 
+nav a {
+    color: var(--accent2-color);
+}
+
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+
 header,
 main,
 footer {
@@ -65,6 +81,7 @@ header img {
     width: 125px;
 }
 
+
 section {
     margin-bottom: 35px;
 }
@@ -73,9 +90,6 @@ section p {
     line-height: 1.6;
 }
 
-h2 {
-    margin-bottom: 12px;
-}
 
 footer {
     margin-top: 40px;
@@ -84,6 +98,8 @@ footer {
 footer p {
     margin-bottom: 12px;
 }
+
+
 .socialmedia {
     display: flex;
     gap: 20px;
