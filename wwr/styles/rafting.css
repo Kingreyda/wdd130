@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #1d3557;
-    --secondary-color: #457b9d;
-    --accent1-color: #f1faee;
-    --accent2-color: #e63946;
+    --primary-color: #163A5F; /* deep navy */
+    --secondary-color: #386ba3; /* strong rafting blue */
+    --accent1-color: #F8FAFC; /* soft white */
+    --accent2-color: #4A90E2; /* bright but professional blue */
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
-}
+    }
 
 * {
     margin: 0;
@@ -19,6 +19,13 @@ body {
 }
 
 nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-right: 12px;
+    font-weight: 600;
+}
+
+nav a:hover {
     color: var(--accent2-color);
 }
 
