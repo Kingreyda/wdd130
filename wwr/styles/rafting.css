@@ -1,11 +1,15 @@
 :root {
-    --primary-color: #163A5F; /* deep navy */
-    --secondary-color: #386ba3; /* strong rafting blue */
-    --accent1-color: #F8FAFC; /* soft white */
-    --accent2-color: #4A90E2; /* bright but professional blue */
+    --primary-color: #163A5F;
+    /* deep navy */
+    --secondary-color: #386ba3;
+    /* strong rafting blue */
+    --accent1-color: #F8FAFC;
+    /* soft white */
+    --accent2-color: #4A90E2;
+    /* bright but professional blue */
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
-    }
+}
 
 * {
     margin: 0;
@@ -29,7 +33,6 @@ nav a:hover {
     color: var(--accent2-color);
 }
 
-
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -39,7 +42,6 @@ h2 {
 h2 {
     margin-bottom: 12px;
 }
-
 
 header,
 main,
@@ -53,19 +55,19 @@ header img {
     height: auto;
 }
 
-
 .hero {
     position: relative;
 }
 
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 0px;
     width: 100%;
-    padding: 16px;
+    padding: 8px 0;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
+    opacity: 0.9;
+    background-color: rgba(22, 58, 95, 0.85);
+    color: white;
 }
 
 .hero img {
@@ -88,7 +90,6 @@ header img {
     width: 125px;
 }
 
-
 section {
     margin-bottom: 35px;
 }
@@ -97,7 +98,6 @@ section p {
     line-height: 1.6;
 }
 
-
 footer {
     margin-top: 40px;
 }
@@ -105,7 +105,6 @@ footer {
 footer p {
     margin-bottom: 12px;
 }
-
 
 .socialmedia {
     display: flex;
