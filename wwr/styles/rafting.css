@@ -111,7 +111,8 @@ header img {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: var(--accent1-color);
+    opacity: 0.9;
     padding: 10px;
     height: fit-content;
 }
