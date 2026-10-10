@@ -17,11 +17,29 @@
     box-sizing: border-box;
 }
 
-.all-header {
+header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
     padding: 10px 0;
+}
+
+.all-header {
+    display: contents;
+}
+
+main,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+    display: grid
+}
+
+header img {
+    width: 150px;
+    height: auto;
 }
 
 .history-content {
@@ -71,18 +89,6 @@ h2 {
 
 h2 {
     margin-bottom: 12px;
-}
-
-header,
-main,
-footer {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
-header img {
-    width: 150px;
-    height: auto;
 }
 
 .hero {
