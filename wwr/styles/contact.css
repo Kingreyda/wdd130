@@ -71,3 +71,8 @@ button {
     height: 120px;
     object-fit: cover;
 }
+
+.socialmedia img {
+    width: 50px;
+    height: auto;
+}
